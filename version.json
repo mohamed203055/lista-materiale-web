@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 21,
- "versionName": "1.0.21",
- "apk": "TalabMawad-1.0.21.apk",
- "notes_ar": "• أسهل: زر «➕ مشروع جديد» و«👥 زبائني» في الأعلى\n• قائمة الزبائن ▾ في خانة الزبون\n• كتالوج المغرب 🇲🇦 وتحسينات",
- "notes_it": "• Più semplice: pulsanti «➕ Nuovo progetto» e «👥 I miei clienti» in alto\n• Elenco clienti ▾ nel campo Cliente\n• Catalogo Marocco 🇲🇦 e miglioramenti",
+ "versionCode": 26,
+ "versionName": "1.0.26",
+ "apk": "TalabMawad-1.0.26.apk",
+ "notes_ar": "• شكل أوضح: التبويب المختار بالأبيض، أزرار واتساب ونسخ وPDF بأيقونات\n• ⭐ المفضلة و🕘 المستعملة مؤخراً في قائمة المواد\n• اضغط مطولاً على سطر في «الطلب» لتكراره أو حذفه\n• زر ⧉ لنسخ مشروع في «زبائني»\n• زر «🧮 حاسبة» واضح، وحُذف تبويب الكيتات",
+ "notes_it": "• Grafica più chiara: scheda attiva in bianco, pulsanti WhatsApp, Copia e PDF con icone\n• ⭐ Preferiti e 🕘 Usati di recente nel catalogo\n• Tieni premuta una riga della Richiesta per duplicarla o eliminarla\n• Pulsante ⧉ per duplicare un progetto in «I miei clienti»\n• Pulsante «🧮 Calcoli» con scritta, tolta la scheda Kit",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -15,12 +15,5 @@
  "packs": {
   "MA": 1
  },
- "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
- "next": {
-  "versionCode": 26,
-  "versionName": "1.0.26",
-  "apk": "TalabMawad-1.0.26.apk",
-  "notes_ar": "• شكل أوضح: التبويب المختار بالأبيض، أزرار واتساب ونسخ وPDF بأيقونات\n• ⭐ المفضلة و🕘 المستعملة مؤخراً في قائمة المواد\n• اضغط مطولاً على سطر في «الطلب» لتكراره أو حذفه\n• زر ⧉ لنسخ مشروع في «زبائني»\n• زر «🧮 حاسبة» واضح، وحُذف تبويب الكيتات",
-  "notes_it": "• Grafica più chiara: scheda attiva in bianco, pulsanti WhatsApp, Copia e PDF con icone\n• ⭐ Preferiti e 🕘 Usati di recente nel catalogo\n• Tieni premuta una riga della Richiesta per duplicarla o eliminarla\n• Pulsante ⧉ per duplicare un progetto in «I miei clienti»\n• Pulsante «🧮 Calcoli» con scritta, tolta la scheda Kit"
- }
+ "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec"
 }
