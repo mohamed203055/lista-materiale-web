@@ -14,5 +14,12 @@
  "force": true,
  "packs": {
   "MA": 1
+ },
+ "next": {
+  "versionCode": 21,
+  "versionName": "1.0.21",
+  "apk": "TalabMawad-1.0.21.apk",
+  "notes_ar": "• أسهل: زر «➕ مشروع جديد» و«👥 زبائني» في الأعلى\n• قائمة الزبائن ▾ في خانة الزبون\n• كتالوج المغرب 🇲🇦 وتحسينات",
+  "notes_it": "• Più semplice: pulsanti «➕ Nuovo progetto» e «👥 I miei clienti» in alto\n• Elenco clienti ▾ nel campo Cliente\n• Catalogo Marocco 🇲🇦 e miglioramenti"
  }
 }
