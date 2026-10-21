@@ -16,10 +16,10 @@
   "MA": 1
  },
  "next": {
-  "versionCode": 19,
-  "versionName": "1.0.19",
-  "apk": "TalabMawad-1.0.19.apk",
-  "notes_ar": "• كتالوج المغرب 🇲🇦 واختيار البلد\n• تبسيط قسم التواصل\n• تحسينات",
-  "notes_it": "• Catalogo Marocco 🇲🇦 e scelta del Paese\n• Contatti semplificati\n• Miglioramenti"
+  "versionCode": 20,
+  "versionName": "1.0.20",
+  "apk": "TalabMawad-1.0.20.apk",
+  "notes_ar": "• جديد: قائمة الزبائن ▾ في خانة الزبون — اختر زبوناً وعدّل ملفه مباشرة\n• زر حفظ في بيانات الموقع\n• كتالوج المغرب 🇲🇦 وتبسيط قسم التواصل",
+  "notes_it": "• Novità: elenco clienti ▾ nel campo Cliente — scegli un cliente e modifica subito il suo progetto\n• Pulsante Salva nei dati del cantiere\n• Catalogo Marocco 🇲🇦 e contatti semplificati"
  }
 }
