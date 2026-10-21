@@ -1,22 +1,15 @@
 {
  "send": true,
- "versionCode": 13,
- "versionName": "1.0.13",
- "apk": "TalabMawad-1.0.13.apk",
- "notes_ar": "• تسجيل الاسم والبلد عند أول فتح\n• تحديثات أسرع\n• تحسينات",
- "notes_it": "• Registrazione con nome e Paese\n• Aggiornamenti più rapidi\n• Miglioramenti",
+ "versionCode": 15,
+ "versionName": "1.0.15",
+ "apk": "TalabMawad-1.0.15.apk",
+ "notes_ar": "• 4 لغات: العربية، الإيطالية، الإنجليزية، الفرنسية\n• قسم الحسابات الكهربائية 🧮 (مقطع الكابل، هبوط الجهد، شريط LED والمحوّل، الإنارة…)\n• فحص قبل التسليم وساعات العمل لكل مشروع",
+ "notes_it": "• 4 lingue: arabo, italiano, inglese, francese\n• Calcoli elettrici 🧮 (sezione cavi, caduta di tensione, LED e alimentatore, illuminazione…)\n• Collaudo e ore di lavoro per ogni progetto",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
   "it": "Chocolat Grazie per la prova",
   "link": ""
  },
- "force": true,
- "next": {
-  "versionCode": 15,
-  "versionName": "1.0.15",
-  "apk": "TalabMawad-1.0.15.apk",
-  "notes_ar": "• 4 لغات: العربية، الإيطالية، الإنجليزية، الفرنسية\n• قسم الحسابات الكهربائية 🧮 (مقطع الكابل، هبوط الجهد، شريط LED والمحوّل، الإنارة…)\n• فحص قبل التسليم وساعات العمل لكل مشروع",
-  "notes_it": "• 4 lingue: arabo, italiano, inglese, francese\n• Calcoli elettrici 🧮 (sezione cavi, caduta di tensione, LED e alimentatore, illuminazione…)\n• Collaudo e ore di lavoro per ogni progetto"
- }
+ "force": true
 }
