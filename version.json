@@ -1,7 +1,14 @@
 {
- "versionCode": 8,
- "versionName": "1.0.8",
- "apk": "TalabMawad.apk",
- "notes_ar": "• تحديث تلقائي: من الآن تصلك رسالة عند كل نسخة جديدة\n• إحصائيات مجهولة الهوية\n• تحسينات في الأمان",
- "notes_it": "• Aggiornamento automatico: da ora ricevi un avviso a ogni nuova versione\n• Statistiche anonime\n• Miglioramenti di sicurezza"
+ "send": false,
+ "versionCode": 10,
+ "versionName": "1.0.10",
+ "apk": "TalabMawad-1.0.10.apk",
+ "notes_ar": "• أنت الآن تتحكم في إرسال التحديثات\n• رسائل خاصة تصل لكل المستخدمين",
+ "notes_it": "• Aggiornamenti inviati dal proprietario\n• Messaggi a tutti gli utenti",
+ "message": {
+  "id": "",
+  "ar": "",
+  "it": "",
+  "link": ""
+ }
 }
