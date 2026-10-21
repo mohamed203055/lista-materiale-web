@@ -14,5 +14,12 @@
  "force": true,
  "packs": {
   "MA": 1
+ },
+ "next": {
+  "versionCode": 19,
+  "versionName": "1.0.19",
+  "apk": "TalabMawad-1.0.19.apk",
+  "notes_ar": "• كتالوج المغرب 🇲🇦 واختيار البلد\n• تبسيط قسم التواصل\n• تحسينات",
+  "notes_it": "• Catalogo Marocco 🇲🇦 e scelta del Paese\n• Contatti semplificati\n• Miglioramenti"
  }
 }
