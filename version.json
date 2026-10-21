@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 15,
- "versionName": "1.0.15",
- "apk": "TalabMawad-1.0.15.apk",
- "notes_ar": "• 4 لغات: العربية، الإيطالية، الإنجليزية، الفرنسية\n• قسم الحسابات الكهربائية 🧮 (مقطع الكابل، هبوط الجهد، شريط LED والمحوّل، الإنارة…)\n• فحص قبل التسليم وساعات العمل لكل مشروع",
- "notes_it": "• 4 lingue: arabo, italiano, inglese, francese\n• Calcoli elettrici 🧮 (sezione cavi, caduta di tensione, LED e alimentatore, illuminazione…)\n• Collaudo e ore di lavoro per ogni progetto",
+ "versionCode": 17,
+ "versionName": "1.0.17",
+ "apk": "TalabMawad-1.0.17.apk",
+ "notes_ar": "• جديد: كتالوج المغرب 🇲🇦 (140 قطعة بالفرنسية والدارجة، كيتات، أسعار بالدرهم)\n• اختيار البلد من الإعدادات\n• تحسينات",
+ "notes_it": "• Novità: catalogo Marocco 🇲🇦 (140 articoli in francese e darija, kit, prezzi in dirham)\n• Scelta del Paese nelle impostazioni\n• Miglioramenti",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -12,13 +12,6 @@
   "link": ""
  },
  "force": true,
- "next": {
-  "versionCode": 17,
-  "versionName": "1.0.17",
-  "apk": "TalabMawad-1.0.17.apk",
-  "notes_ar": "• جديد: كتالوج المغرب 🇲🇦 (140 قطعة بالفرنسية والدارجة، كيتات، أسعار بالدرهم)\n• اختيار البلد من الإعدادات\n• تحسينات",
-  "notes_it": "• Novità: catalogo Marocco 🇲🇦 (140 articoli in francese e darija, kit, prezzi in dirham)\n• Scelta del Paese nelle impostazioni\n• Miglioramenti"
- },
  "packs": {
   "MA": 1
  }
