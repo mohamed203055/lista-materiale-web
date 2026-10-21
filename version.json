@@ -11,5 +11,15 @@
   "it": "Chocolat Grazie per la prova",
   "link": ""
  },
- "force": true
+ "force": true,
+ "next": {
+  "versionCode": 17,
+  "versionName": "1.0.17",
+  "apk": "TalabMawad-1.0.17.apk",
+  "notes_ar": "• جديد: كتالوج المغرب 🇲🇦 (140 قطعة بالفرنسية والدارجة، كيتات، أسعار بالدرهم)\n• اختيار البلد من الإعدادات\n• تحسينات",
+  "notes_it": "• Novità: catalogo Marocco 🇲🇦 (140 articoli in francese e darija, kit, prezzi in dirham)\n• Scelta del Paese nelle impostazioni\n• Miglioramenti"
+ },
+ "packs": {
+  "MA": 1
+ }
 }
