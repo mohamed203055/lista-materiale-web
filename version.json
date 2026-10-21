@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 17,
- "versionName": "1.0.17",
- "apk": "TalabMawad-1.0.17.apk",
- "notes_ar": "• جديد: كتالوج المغرب 🇲🇦 (140 قطعة بالفرنسية والدارجة، كيتات، أسعار بالدرهم)\n• اختيار البلد من الإعدادات\n• تحسينات",
- "notes_it": "• Novità: catalogo Marocco 🇲🇦 (140 articoli in francese e darija, kit, prezzi in dirham)\n• Scelta del Paese nelle impostazioni\n• Miglioramenti",
+ "versionCode": 20,
+ "versionName": "1.0.20",
+ "apk": "TalabMawad-1.0.20.apk",
+ "notes_ar": "• جديد: قائمة الزبائن ▾ في خانة الزبون — اختر زبوناً وعدّل ملفه مباشرة\n• زر حفظ في بيانات الموقع\n• كتالوج المغرب 🇲🇦 وتبسيط قسم التواصل",
+ "notes_it": "• Novità: elenco clienti ▾ nel campo Cliente — scegli un cliente e modifica subito il suo progetto\n• Pulsante Salva nei dati del cantiere\n• Catalogo Marocco 🇲🇦 e contatti semplificati",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -14,12 +14,5 @@
  "force": true,
  "packs": {
   "MA": 1
- },
- "next": {
-  "versionCode": 20,
-  "versionName": "1.0.20",
-  "apk": "TalabMawad-1.0.20.apk",
-  "notes_ar": "• جديد: قائمة الزبائن ▾ في خانة الزبون — اختر زبوناً وعدّل ملفه مباشرة\n• زر حفظ في بيانات الموقع\n• كتالوج المغرب 🇲🇦 وتبسيط قسم التواصل",
-  "notes_it": "• Novità: elenco clienti ▾ nel campo Cliente — scegli un cliente e modifica subito il suo progetto\n• Pulsante Salva nei dati del cantiere\n• Catalogo Marocco 🇲🇦 e contatti semplificati"
  }
 }
