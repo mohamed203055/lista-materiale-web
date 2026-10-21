@@ -10,5 +10,12 @@
   "ar": "Chocolat Grazie per la prova",
   "it": "Chocolat Grazie per la prova",
   "link": ""
+ },
+ "next": {
+  "versionCode": 13,
+  "versionName": "1.0.13",
+  "apk": "TalabMawad-1.0.13.apk",
+  "notes_ar": "• تسجيل الاسم والبلد عند أول فتح\n• تحديثات أسرع\n• تحسينات",
+  "notes_it": "• Registrazione con nome e Paese\n• Aggiornamenti più rapidi\n• Miglioramenti"
  }
 }
