@@ -16,5 +16,12 @@
   "MA": 1
  },
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
- "people_ver": "1792645524728"
+ "people_ver": "1792645524728",
+ "next": {
+  "versionCode": 34,
+  "versionName": "1.0.34",
+  "apk": "TalabMawad-1.0.34.apk",
+  "notes_ar": "• 🌙 المظهر الداكن في ⚙️ الإعدادات\n• 📤 زر «أرسل التطبيق لصديق» في الإعدادات",
+  "notes_it": "• 🌙 Tema scuro in ⚙️ Impostazioni\n• 📤 Pulsante «Invia l’app a un amico» nelle impostazioni"
+ }
 }
