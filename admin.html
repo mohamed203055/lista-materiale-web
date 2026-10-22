@@ -135,7 +135,10 @@ details.pros>summary::-webkit-details-marker{display:none}
       </div>
       <div id="uCountries" class="mini" style="line-height:1.9;margin:8px 0"></div>
       <input id="uQ" placeholder="🔍 ابحث بالاسم أو البلد أو المدينة…">
-      <div id="uList" style="margin-top:8px"></div>
+      <details class="pros" id="uBox" style="margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:12px">
+        <summary style="font-size:15.5px"><span>📋 قائمة كل المسجّلين (<span id="uCnt">0</span>)</span><span class="mini">اضغط للفتح ▾</span></summary>
+        <div id="uList" style="margin-top:8px"></div>
+      </details>
       <button class="b-ghost" id="btnUsers">🔄 تحديث القائمة</button>
       <button class="b-ghost" id="btnUnlink" style="font-size:13px">تغيير رابط السكربت أو المفتاح</button>
     </div>
@@ -265,6 +268,8 @@ function ls(k,v){try{if(v===undefined)return localStorage.getItem(k)||'';if(v===
 function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function d(x){if(!x)return '—';var t=new Date(x);if(isNaN(t))return esc(x);function z(n){return (n<10?'0':'')+n}return z(t.getDate())+'/'+z(t.getMonth()+1)+'/'+t.getFullYear()}
 var JOB={dipendente:'يعمل عند شركة',proprio:'يعمل لحسابه',ditta:'صاحب شركة',altro:'عمل آخر'};
+var TRADE={ele:'⚡ كهربائي',edi:'🧱 بنّاء'};
+function jobTxt(l){var p=String(l||'').split('|');return (TRADE[p[1]||'ele']||p[1])+' · '+(JOB[p[0]]||p[0])}
 function usersShow(){
   var q=$('uQ').value.trim().toLowerCase(), wk=Date.now()-7*864e5;
   $('uTot').textContent=USERS.length;
@@ -273,10 +278,12 @@ function usersShow(){
   $('uCountries').innerHTML='🌍 '+Object.keys(by).sort(function(a,b){return by[b]-by[a]}).map(function(c){return '<b>'+esc(c)+'</b> '+by[c]}).join(' · ');
   var list=USERS.filter(function(u){return !q||[u.nome,u.paese,u.citta,u.codice].join(' ').toLowerCase().indexOf(q)>=0})
     .sort(function(a,b){return new Date(b.ultimo)-new Date(a.ultimo)});
+  $('uCnt').textContent=q?list.length+' / '+USERS.length:USERS.length;
+  if(q)$('uBox').open=true;
   $('uList').innerHTML=list.map(function(u){
     return '<div style="border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px">'+
      '<div style="display:flex;justify-content:space-between;gap:8px"><b>'+esc(u.nome)+'</b><span class="mini" dir="ltr">'+esc(u.codice)+'</span></div>'+
-     '<div class="mini">📍 '+esc(u.paese)+(u.citta?' – '+esc(u.citta):'')+' · 👷 '+esc(JOB[u.lavoro]||u.lavoro)+'</div>'+
+     '<div class="mini">📍 '+esc(u.paese)+(u.citta?' – '+esc(u.citta):'')+' · 👷 '+esc(jobTxt(u.lavoro))+'</div>'+
      '<div class="mini">📅 سجّل: '+d(u.reg)+' · 👁 آخر دخول: '+d(u.ultimo)+' · 📆 أيام الاستعمال: <b>'+esc(u.giorni||1)+'</b></div>'+
      '<div class="mini" dir="ltr" style="text-align:right">'+esc(u.dispositivo)+' · v'+esc(u.versione)+' · '+esc(u.lingua)+'</div></div>'}).join('')||'<div class="mini">لا يوجد مسجّلون بعد.</div>';
 }

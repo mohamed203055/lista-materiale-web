@@ -124,8 +124,8 @@ main{padding:12px 12px 0}
 .row2 .btn{flex:1}
 .iconbtn.lang{font-size:14px;font-weight:800;width:auto;padding:0 10px}
 .iconbtn.calcbtn{font-size:13.5px;font-weight:700;gap:4px;display:flex;align-items:center;white-space:nowrap}
-.seg{display:flex;gap:6px}
-.seg .chip{flex:1;text-align:center}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg .chip{flex:1 1 auto;text-align:center;border-radius:12px}
 .contact{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line);border-radius:12px;margin-top:8px;width:100%;text-align:start}
 .contact .ci{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;flex:none}
 .contact b{display:block;font-size:15px}.contact span{font-size:12.5px;color:var(--sub)}
@@ -135,8 +135,8 @@ main{padding:12px 12px 0}
 .clrow{display:flex;gap:6px;align-items:stretch;margin-top:8px}.clrow .contact{margin-top:0;flex:1;min-width:0}
 .cldup{flex:none;width:46px;border:1px solid var(--line);border-radius:12px;font-size:19px;color:var(--brand);background:var(--brand-soft)}
 .iconbtn.lang{font-size:14px;font-weight:800;width:auto;padding:0 10px}
-.seg{display:flex;gap:6px}
-.seg .chip{flex:1;text-align:center}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg .chip{flex:1 1 auto;text-align:center;border-radius:12px}
 .contact{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line);border-radius:12px;margin-top:8px;width:100%;text-align:start}
 .contact .ci{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;flex:none}
 .contact b{display:block;font-size:15px}.contact span{font-size:12.5px;color:var(--sub)}
@@ -224,9 +224,10 @@ main{padding:12px 12px 0}
 <input type="file" id="fileJson" accept="*/*" style="display:none">
 
 <script>window.LM_STATS=window.LM_STATS||"talabmawad";/* codice GoatCounter */</script>
-<script>window.LM_WEB_VERSION="web-1.0.27";window.LM_RELEASE=1</script>
+<script>window.LM_WEB_VERSION="web-1.0.32";window.LM_RELEASE=1</script>
 <script src="catalog.js"></script>
 <script src="packs.js"></script>
+<script src="trades.js"></script>
 <script src="lang.js"></script>
 <script src="app.js"></script>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){})}</script>
