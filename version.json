@@ -18,19 +18,6 @@
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
  "people_ver": "1792655196000",
  "live": {
-  "ver": "45",
-  "min": 41,
-  "files": {
-   "app.js": "0e2435f60227dc12df5b8bb9d30039e40310bb2a130298293993bec8f1948034",
-   "catalog.js": "0f729b69ea6167a7f138583c1d065d616be8ece0fd3c7199f9990872fe392315",
-   "index.html": "3822f4b73e61c2e305f39a84e5079ddadeb52189625041362b9987d30e0f5221",
-   "lang.js": "63327583bfdc76afee3337f4c3cc62178bc06eaec886f3220e6ec12a71b6e211",
-   "packs.js": "d21bf1baf97dee148cea6f3a5ac1486cdfc13036cad2d0d76f7883f06e201ed2",
-   "trades.js": "2414a7c3c7a328df5c637173c7437106ac3104368e1f98b772566b28d8c6edc2"
-  },
-  "sig": "MEUCIQCMw/zRu3PrcmgG7BfrN5y3PdfJngMQO+b68PNK0BKTXQIgIFSZXgJI1OUguPwN4pBoX9M8HqqwkJFrqA63riib1YE="
- },
- "liveNext": {
   "ver": "46",
   "min": 41,
   "files": {
