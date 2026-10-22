@@ -24,7 +24,7 @@
   "notes_ar": "• 🧮 حساب الكابل أدقّ: عدد الخطوط في الأنبوب وحرارة المكان (حسب CEI 64-8)",
   "notes_it": "• 🧮 Calcolo cavo più preciso: circuiti nello stesso tubo e temperatura ambiente (CEI 64-8)"
  },
- "liveNext": {
+ "live": {
   "ver": "43",
   "min": 41,
   "files": {
