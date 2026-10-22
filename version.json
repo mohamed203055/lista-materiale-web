@@ -1,10 +1,10 @@
 {
- "send": false,
- "versionCode": 43,
- "versionName": "1.0.43",
- "apk": "TalabMawad-1.0.43.apk",
- "notes_ar": "• 🧮 حساب الكابل أدقّ: عدد الخطوط في الأنبوب وحرارة المكان (حسب CEI 64-8)",
- "notes_it": "• 🧮 Calcolo cavo più preciso: circuiti nello stesso tubo e temperatura ambiente (CEI 64-8)",
+ "send": true,
+ "versionCode": 45,
+ "versionName": "1.0.45",
+ "apk": "TalabMawad-1.0.45.apk",
+ "notes_ar": "• 🌐 أول فتح للتطبيق بلغة الهاتف (إيطالية، عربية، إنجليزية أو فرنسية)",
+ "notes_it": "• 🌐 Alla prima apertura l’app usa la lingua del telefono",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -42,12 +42,5 @@
    "trades.js": "2414a7c3c7a328df5c637173c7437106ac3104368e1f98b772566b28d8c6edc2"
   },
   "sig": "MEUCIQCMw/zRu3PrcmgG7BfrN5y3PdfJngMQO+b68PNK0BKTXQIgIFSZXgJI1OUguPwN4pBoX9M8HqqwkJFrqA63riib1YE="
- },
- "next": {
-  "versionCode": 45,
-  "versionName": "1.0.45",
-  "apk": "TalabMawad-1.0.45.apk",
-  "notes_ar": "• 🌐 أول فتح للتطبيق بلغة الهاتف (إيطالية، عربية، إنجليزية أو فرنسية)",
-  "notes_it": "• 🌐 Alla prima apertura l’app usa la lingua del telefono"
  }
 }
