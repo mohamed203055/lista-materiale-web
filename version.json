@@ -23,5 +23,18 @@
   "apk": "TalabMawad-1.0.43.apk",
   "notes_ar": "• 🧮 حساب الكابل أدقّ: عدد الخطوط في الأنبوب وحرارة المكان (حسب CEI 64-8)",
   "notes_it": "• 🧮 Calcolo cavo più preciso: circuiti nello stesso tubo e temperatura ambiente (CEI 64-8)"
+ },
+ "liveNext": {
+  "ver": "43",
+  "min": 41,
+  "files": {
+   "app.js": "960de46976f20e238193e9c546e5d8251488c615add70cefd60221a34e2770be",
+   "catalog.js": "9e9595de7f03c264e7d27776c852616139288629343b994209f7a6ee07da0112",
+   "index.html": "65c6dac9b30f6fff49e69f70cef4ee00019bbfb572fc5714dae0969ce842ea23",
+   "lang.js": "6ee38e423a499f9626928bc54def15d9d26ce83dc62acd0522459659e8032aa5",
+   "packs.js": "2fddc8d87c016a354c45f54badf28e419486d34cf2d7fc92e8f1dc1f5b316a98",
+   "trades.js": "da3b1873f79c9b348b9e358c918632162693c85a57dadd1665301a93b1685e16"
+  },
+  "sig": "MEYCIQCCoTyAOJoOFU8lEnwrOY9qkFWDxaw5QZ4vKcd3LiL8pwIhAKYQJTo2BNWNE4AsBihVlGJB0exvtUmxA2Ndh6piZFQi"
  }
 }

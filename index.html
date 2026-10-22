@@ -7,11 +7,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="طلب مواد">
+<meta name="apple-mobile-web-app-title" content="SiteNeeds">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="icon-192.png">
-<title>طلب مواد</title>
+<title>SiteNeeds</title>
 <style>
 :root{
   --bg:#F3F4F8; --card:#FFFFFF; --ink:#16192B; --sub:#646A80; --line:#E3E5EC;
@@ -45,7 +45,8 @@ input,textarea{font:inherit;color:inherit}
 header{position:sticky;top:0;z-index:20;background:var(--brand);color:#fff;padding:14px 16px 10px}
 .top{display:flex;align-items:center;gap:10px}
 .top h1{flex:1;margin:0;font-size:20px}
-.top h1 small{display:block;font-size:12px;font-weight:400;opacity:.8}
+.top h1{min-width:0;overflow:hidden}
+.top h1 small{display:block;font-size:12px;font-weight:400;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .iconbtn{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.16);display:grid;place-items:center;font-size:19px}
 .search{margin-top:10px;display:flex;align-items:center;gap:8px;height:44px;background:var(--surface);border-radius:12px;padding:0 6px 0 12px;padding-inline:14px 6px;color:var(--ink)}
 .search>span{font-size:16px;opacity:.55;flex:none;line-height:1}
@@ -74,6 +75,7 @@ main{padding:12px 12px 0}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .cat{background:var(--card);border-radius:var(--radius);padding:14px 12px;text-align:start;min-height:92px;box-shadow:0 1px 2px var(--shadow);display:flex;flex-direction:column;gap:4px}
 .cat .ic{font-size:24px}
+.svgic{width:1.45em;height:1.05em;vertical-align:-.15em;display:inline-block}.cat .ic .svgic{width:40px;height:29px;display:block}
 .cat b{font-size:15px}
 .cat span{font-size:12px;color:var(--sub)}
 .back{display:flex;align-items:center;gap:8px;margin:2px 0 10px;font-weight:700;color:var(--brand)}
@@ -249,7 +251,7 @@ main{padding:12px 12px 0}
 <input type="file" id="fileJson" accept="*/*" style="display:none">
 
 <script>window.LM_STATS=window.LM_STATS||"talabmawad";/* codice GoatCounter */</script>
-<script>window.LM_WEB_VERSION="web-1.0.36";window.LM_RELEASE=1</script>
+<script>window.LM_WEB_VERSION="web-1.0.41";window.LM_RELEASE=1</script>
 <script src="catalog.js"></script>
 <script src="packs.js"></script>
 <script src="trades.js"></script>

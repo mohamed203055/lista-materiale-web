@@ -1,6 +1,6 @@
 {
-  "name": "طلب مواد – Richiesta materiale",
-  "short_name": "طلب مواد",
+  "name": "SiteNeeds – طلب مواد",
+  "short_name": "SiteNeeds",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
