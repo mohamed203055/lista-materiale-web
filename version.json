@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 32,
- "versionName": "1.0.32",
- "apk": "TalabMawad-1.0.32.apk",
- "notes_ar": "• 🧱 جديد: مهنة «بنّاء» — اختر مهنتك في ⚙️ الإعدادات: قطع البناء (إيطاليا والمغرب)، أسعار يد عاملة البنّاء، حاسبات البناء (بلاط، دهان، جبس، صبة، لياسة، طوب، خرسانة) وفحص قبل التسليم\n• كل مهنة لها مشاريعها الخاصة، لا شيء يختلط",
- "notes_it": "• 🧱 Novità: mestiere «Edilizia» — scegli il mestiere in ⚙️ Impostazioni: materiali edili (Italia e Marocco), prezzi manodopera muratore, calcoli (piastrelle, pittura, cartongesso, massetto, intonaco, mattoni, calcestruzzo) e collaudo\n• Ogni mestiere ha i suoi progetti, niente si mescola",
+ "versionCode": 35,
+ "versionName": "1.0.35",
+ "apk": "TalabMawad-1.0.35.apk",
+ "notes_ar": "• 🌙 المظهر الداكن في ⚙️ الإعدادات\n• 📤 زر «أرسل التطبيق لصديق» في الإعدادات\n• 📦 «ما وصل من الطلب؟»: ضع ✓ على ما وصل وأرسل للمدير ما ينقص فقط\n• 📷 صورة على أي سطر (ضغط مطوّل) تظهر في PDF\n• 📋 قوالبي: احفظ طلباً واستعمله مرة أخرى\n• 🤝 أرسل المشروع لزميل، و💾 نسخة احتياطية في الإعدادات\n• 🧾 عرض السعر: رقم، صلاحية 30 يوماً، شعار الشركة وهاتفك",
+ "notes_it": "• 🌙 Tema scuro in ⚙️ Impostazioni\n• 📤 Pulsante «Invia l’app a un amico» nelle impostazioni\n• 📦 «Cosa è arrivato?»: spunta ciò che è arrivato e invia solo ciò che manca\n• 📷 Foto su ogni riga (pressione lunga), anche nel PDF\n• 📋 I miei modelli: salva una richiesta e riusala\n• 🤝 Invia il progetto a un collega e 💾 copia di sicurezza nelle impostazioni\n• 🧾 Preventivo: numero, validità 30 giorni, logo e telefono",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -16,12 +16,5 @@
   "MA": 1
  },
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
- "people_ver": "1792645524728",
- "next": {
-  "versionCode": 35,
-  "versionName": "1.0.35",
-  "apk": "TalabMawad-1.0.35.apk",
-  "notes_ar": "• 🌙 المظهر الداكن في ⚙️ الإعدادات\n• 📤 زر «أرسل التطبيق لصديق» في الإعدادات\n• 📦 «ما وصل من الطلب؟»: ضع ✓ على ما وصل وأرسل للمدير ما ينقص فقط\n• 📷 صورة على أي سطر (ضغط مطوّل) تظهر في PDF\n• 📋 قوالبي: احفظ طلباً واستعمله مرة أخرى\n• 🤝 أرسل المشروع لزميل، و💾 نسخة احتياطية في الإعدادات\n• 🧾 عرض السعر: رقم، صلاحية 30 يوماً، شعار الشركة وهاتفك",
-  "notes_it": "• 🌙 Tema scuro in ⚙️ Impostazioni\n• 📤 Pulsante «Invia l’app a un amico» nelle impostazioni\n• 📦 «Cosa è arrivato?»: spunta ciò che è arrivato e invia solo ciò che manca\n• 📷 Foto su ogni riga (pressione lunga), anche nel PDF\n• 📋 I miei modelli: salva una richiesta e riusala\n• 🤝 Invia il progetto a un collega e 💾 copia di sicurezza nelle impostazioni\n• 🧾 Preventivo: numero, validità 30 giorni, logo e telefono"
- }
+ "people_ver": "1792645524728"
 }
