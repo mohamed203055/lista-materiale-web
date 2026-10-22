@@ -29,5 +29,18 @@
    "trades.js": "6bcfcbbf7605abb6f33b2e612711baaad3b1425df52cb768d3fe0984c15f63e8"
   },
   "sig": "MEYCIQDAvv6pGYjhx9wpmx12Qya4mFtslVF1jcdW/e4XhlrtrwIhAJjRzXiWG67NRSFX0IGz1x2TealpQ2wHMG6DYnPOjSFF"
+ },
+ "liveNext": {
+  "ver": "50",
+  "min": 41,
+  "files": {
+   "app.js": "2662462c26b5359b567a75c8f21521a04bdbe46e94ed2aed3a22e7f9801a4589",
+   "catalog.js": "e71c53a1e9bd6aa4ef4832d9f273c10e607b9e1088d5ee8ee9388ba1aa0f7f77",
+   "index.html": "39c973927aa2f9cbff3f768e9a50f31fc635af2186e35e64f6e786a3e9ff9d72",
+   "lang.js": "46c9bd3e23e074e940637b7cf7f74acdfc051afcca2e641ff428b02f2ef9fa8a",
+   "packs.js": "f4b8dfd424455f8b4beb5da7ed93329565ad5e6834b361718e29d636649641fa",
+   "trades.js": "1b7d347b9a6faef676fe881888ab0d5c9c5d0da727e78fbb4b32670cc05a4f1a"
+  },
+  "sig": "MEYCIQDfs3jfRVMXMuZgdW9Ef61JnzD/i6uPOdjaaKEhB3IE4wIhAKIOcm4JjBlqG5he7E3smxBGLcdTt5i7wPyVSyzt2TpI"
  }
 }
