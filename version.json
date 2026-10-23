@@ -29,5 +29,12 @@
    "trades.js": "c41a701019d504acacab4799938c861068c7799b88f3a449edaa9a0c8a5997e3"
   },
   "sig": "MEUCIQD9MDuVYqkm+5OXZRUpP2AUFRbCb994fLUI1LqtHP0ZYAIgbv57S83gYVUk4WVmmGf5Wbl3rXoMvbAVQVPZoE5mqLo="
+ },
+ "next": {
+  "versionCode": 60,
+  "versionName": "1.0.60",
+  "apk": "SiteNeeds-1.0.60.apk",
+  "notes_ar": "• الاسم الجديد SiteNeeds في كل مكان\n• الموقع الجديد siteneeds.net للتحميل والتحديثات\n• كل الإصلاحات الأخيرة",
+  "notes_it": "• Nuovo nome SiteNeeds ovunque\n• Nuovo sito siteneeds.net per download e aggiornamenti\n• Tutte le ultime correzioni"
  }
 }
