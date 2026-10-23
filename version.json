@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 45,
- "versionName": "1.0.45",
- "apk": "TalabMawad-1.0.45.apk",
- "notes_ar": "• 🌐 أول فتح للتطبيق بلغة الهاتف (إيطالية، عربية، إنجليزية أو فرنسية)",
- "notes_it": "• 🌐 Alla prima apertura l’app usa la lingua del telefono",
+ "versionCode": 59,
+ "versionName": "1.0.59",
+ "apk": "SiteNeeds-1.0.59.apk",
+ "notes_ar": "• الاسم الجديد SiteNeeds في كل مكان\n• الموقع الجديد siteneeds.net للتحميل والتحديثات\n• كل الإصلاحات الأخيرة",
+ "notes_it": "• Nuovo nome SiteNeeds ovunque\n• Nuovo sito siteneeds.net per download e aggiornamenti\n• Tutte le ultime correzioni",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -29,12 +29,5 @@
    "trades.js": "c08d6095683a1e563c86bab5046c55f0a0c5ac6d526bcfabf8d84aa702468b1f"
   },
   "sig": "MEYCIQCHiTvrgojR7Cl3MDcdS5RUbScW1CWyx2AGFZC3NAkPIAIhAMArkcp9V9UmVLMLY2ZHUTMaKLd+Kw86mCkk9XIw+1HG"
- },
- "next": {
-  "versionCode": 59,
-  "versionName": "1.0.59",
-  "apk": "SiteNeeds-1.0.59.apk",
-  "notes_ar": "• الاسم الجديد SiteNeeds في كل مكان\n• الموقع الجديد siteneeds.net للتحميل والتحديثات\n• كل الإصلاحات الأخيرة",
-  "notes_it": "• Nuovo nome SiteNeeds ovunque\n• Nuovo sito siteneeds.net per download e aggiornamenti\n• Tutte le ultime correzioni"
  }
 }
