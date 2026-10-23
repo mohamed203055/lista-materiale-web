@@ -18,16 +18,16 @@
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
  "people_ver": "1792692031166",
  "live": {
-  "ver": "55",
+  "ver": "57",
   "min": 41,
   "files": {
-   "app.js": "3ddde6fead48bd84280fcca7856eb9b72eda74b50067692dacae648226c2e41a",
-   "catalog.js": "85f91a98ccb223f97e4f15b83111b7f84d34c22c1528f0cfb0ec78967376e5be",
-   "index.html": "d0c5546cabe287b022f2828ae8e7ee1a983a2b7980be9d8ec6d678ec589464de",
-   "lang.js": "31d0d151abca6bfb5c3eab9767b7f6a438642174e47ba10093e4a6bd26697ebf",
-   "packs.js": "0dbea0595a52e3ba5652865f80a736f0df2fddae05b9aeb930871d073b512ed6",
-   "trades.js": "2eafa732df08739715d4a122aeb923b836be08d6cf50abfa55cf3421bf880425"
+   "app.js": "0cb4bb9007bf2e7fe7713ce0ef04893883392ec3f40c3ed45a55a4a79f8b2d7a",
+   "catalog.js": "adef6c88b3faea6d62cf215decb0da4b84fdc2c74ab8f06a1e6b704a0147eae5",
+   "index.html": "c2d42a672867cdb52a2b3a894ee5d45cd455fda15db7e4646b770fb415aa1e4c",
+   "lang.js": "1ce9a8e110afb3864574cc4847fc516a4f9cc88ebecbab8b9eaa52798c3d2143",
+   "packs.js": "f89f2053842316d24cac3bd350273b0b733b8a232001f60fd6cfe2855e7ee92a",
+   "trades.js": "8c9c765fe202c96b8138cf1a9c78e3c5d8986ca4ab380a681a5ac879dba59905"
   },
-  "sig": "MEUCIQDz+CEwYxviSPfmc5jxrauMzmHBT49CWlwXT2nim4cWNQIgKJK2RtJHr3TuHV+XJYWFSQVbgedHeznyLASTmaP0wX0="
+  "sig": "MEQCIHBljbE0S4RPhNhoPWQa+gyPLVNJxs+yAsST4v94EaMcAiAyx924HCLGSWwiBhlusw4B8L0wvCvead2EhABfp07Mig=="
  }
 }
