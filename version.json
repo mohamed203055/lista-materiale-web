@@ -35,5 +35,18 @@
   "flags": {},
   "over": {},
   "add": {}
+ },
+ "liveNext": {
+  "ver": "65",
+  "min": 41,
+  "files": {
+   "app.js": "d74bc09a2184ee3efd25a13ba47a73c6a4fd130358d847f4fc8a5c519d2bd99e",
+   "catalog.js": "175758057211654831f598980dae33c224687a34f9fe1625a979f8f1fe6e8019",
+   "index.html": "cd30edbf5170bdd6586641dc0e497933bf78e80abac17c088b47ba3dda0593d6",
+   "lang.js": "87a3ba05517cc3b5c291fa341a1eb25113a040584330ed8363f549334faf2ea0",
+   "packs.js": "3c3a5e9ccf309f9667d01f76853c6643ebdfa626c7d2deba2688047924f9d9ad",
+   "trades.js": "e099ce1e0dace69dd346f566489b528c1aba0e8986efd7ad1139db3bf587a709"
+  },
+  "sig": "MEUCIQD1oSWQG4YliJVHv8NfCtiM1q5V1kW5dyyyD0GjrNQTZwIgQlbLLEmD3vtXmojFtQfs0J2r2dpKdd9DGuLKmf8M/0E="
  }
 }
