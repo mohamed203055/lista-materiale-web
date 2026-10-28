@@ -30,5 +30,10 @@
    "trades.js": "5746ac68c1dda623597b7f0cac6c5c686d53b8d1f193b49082a034148907a73e"
   },
   "sig": "MEYCIQDu0+5xP7hpH1NWuVDS2vJqkDtVJrIaLWxhmOe1AuDZVAIhAJtXSbN6JAFwQSxuRUPSzd+vAXTqVL+/a5TYe9Wd33A9"
+ },
+ "rc": {
+  "flags": {},
+  "over": {},
+  "add": {}
  }
 }
