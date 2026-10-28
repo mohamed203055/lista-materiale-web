@@ -37,16 +37,16 @@
   "add": {}
  },
  "liveNext": {
-  "ver": "66",
+  "ver": "67",
   "min": 41,
   "files": {
-   "app.js": "c2e980a60c9f8b921e0767fb54be1c812177617238c7fe424c72fede407bff89",
-   "catalog.js": "16065b22c3b365866c277c021785e9b9972b8a88ad36c5e34e1f48509c8f0f68",
-   "index.html": "9cef6a09d33c49dbb23a90a13cef9d186b6bff04a8fc8c4b5d4d5100143e4ea9",
-   "lang.js": "640dd66132b48fbd4370a5fa4dce64ea20f6d34c50c17cdefb03dceb8034b88d",
-   "packs.js": "41858dd909d2b64b565c94e5ee2c95c15dfdf313928299a3d5c8e4260f2e0975",
-   "trades.js": "63dfcb9aeecdc3bd2aea3018c59c7e07ea32060ce964cb6a93a218a1526e4c5f"
+   "app.js": "d007237f65db061966f7e7bcb7429c87b1f13eafcbefb84298b1a92d5801949a",
+   "catalog.js": "372274aa2df891f825301e30ab536d5aa128c73843ba7afa41148d35395b1327",
+   "index.html": "157df214a698e36f1ab539bdb42c83adcc70f4f3920d2c6f3c2c5a5ccbf6594c",
+   "lang.js": "a198c3846b3a7167bfc556572c378a8f75f1b1b57a00080e18055ea50b2174a2",
+   "packs.js": "7f67208b443a4f16e465be48987e3c7c97fbd5ecd10e39c78fe152fe1adcfac5",
+   "trades.js": "802705fb9cb377765735952946544c1feb84489b485acc591171bc14142f17e3"
   },
-  "sig": "MEUCIBl6LFXGpyOTlweQtKbFUfv1Unzff3N90TRJj/1YYekVAiEA4jubvF6Xnz5s2P2Jzj8sPUwYliy5dcZ6k/RGe2/3la8="
+  "sig": "MEUCIGQYaYKfJsMKGVbgmuaXDTfhe9gqJ8Ckbu3ST1K8BPvHAiEAw0wTzIZNgjukAxmY1SsBLc6+abBozUhVJgSjqnVs5Vc="
  }
 }
