@@ -1,10 +1,10 @@
 {
  "send": true,
- "versionCode": 60,
- "versionName": "1.0.60",
- "apk": "SiteNeeds-1.0.60.apk",
- "notes_ar": "• الاسم الجديد SiteNeeds في كل مكان\n• الموقع الجديد siteneeds.net للتحميل والتحديثات\n• كل الإصلاحات الأخيرة",
- "notes_it": "• Nuovo nome SiteNeeds ovunque\n• Nuovo sito siteneeds.net per download e aggiornamenti\n• Tutte le ultime correzioni",
+ "versionCode": 68,
+ "versionName": "1.0.68",
+ "apk": "SiteNeeds-1.0.68.apk",
+ "notes_ar": "• تصميم جديد احترافي مع أيقونات ثلاثية الأبعاد\n• أيقونة وشعار جديدان\n• قائمة يدوية على شكل ورقة\n• PDF احترافي بشعارك\n• صور القطع",
+ "notes_it": "• Nuovo design professionale con icone 3D\n• Nuova icona e logo\n• Lista a mano in stile foglio\n• PDF professionale con il tuo logo\n• Foto dei pezzi",
  "message": {
   "id": "1792578568312",
   "ar": "Chocolat Grazie per la prova",
@@ -19,34 +19,21 @@
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
  "people_ver": "1792767417210",
  "live": {
-  "ver": "65",
+  "ver": "68",
   "min": 41,
   "files": {
-   "app.js": "d74bc09a2184ee3efd25a13ba47a73c6a4fd130358d847f4fc8a5c519d2bd99e",
-   "catalog.js": "175758057211654831f598980dae33c224687a34f9fe1625a979f8f1fe6e8019",
-   "index.html": "cd30edbf5170bdd6586641dc0e497933bf78e80abac17c088b47ba3dda0593d6",
-   "lang.js": "87a3ba05517cc3b5c291fa341a1eb25113a040584330ed8363f549334faf2ea0",
-   "packs.js": "3c3a5e9ccf309f9667d01f76853c6643ebdfa626c7d2deba2688047924f9d9ad",
-   "trades.js": "e099ce1e0dace69dd346f566489b528c1aba0e8986efd7ad1139db3bf587a709"
+   "app.js": "be23459014d69ccffac8d7f1d67efedb55e7a6b599d237363bad5e4809135cff",
+   "catalog.js": "e87900457354a156dd1cee5dea488c173437456bacd9b3235205cdea36cf0552",
+   "index.html": "4f9762124f31e9204d54d97ff62fc750a30bf27122a0a5169122d4c1d7749a3b",
+   "lang.js": "40d207245b1ad5a09aef03a5a170d7a0fa7ff5734c532fd193982472ccd11324",
+   "packs.js": "83e4c8bbf6d72e759b3a359a684a3c1766f0e7686983eca1b09614d7166e94d3",
+   "trades.js": "4adfa8efc9c3bdda2273850ab3226cc0be4e91693e724920eed9d22d4b37742e"
   },
-  "sig": "MEUCIQD1oSWQG4YliJVHv8NfCtiM1q5V1kW5dyyyD0GjrNQTZwIgQlbLLEmD3vtXmojFtQfs0J2r2dpKdd9DGuLKmf8M/0E="
+  "sig": "MEQCIC6/BOIpTSLCyW4tuGOGbpaIWekgaOzVbqzTRhJWH/8SAiBhLAr42JseIxwBpNKTAgEW1/1jk1OenWL8qaOvmAOPzg=="
  },
  "rc": {
   "flags": {},
   "over": {},
   "add": {}
- },
- "liveNext": {
-  "ver": "67",
-  "min": 41,
-  "files": {
-   "app.js": "d007237f65db061966f7e7bcb7429c87b1f13eafcbefb84298b1a92d5801949a",
-   "catalog.js": "372274aa2df891f825301e30ab536d5aa128c73843ba7afa41148d35395b1327",
-   "index.html": "157df214a698e36f1ab539bdb42c83adcc70f4f3920d2c6f3c2c5a5ccbf6594c",
-   "lang.js": "a198c3846b3a7167bfc556572c378a8f75f1b1b57a00080e18055ea50b2174a2",
-   "packs.js": "7f67208b443a4f16e465be48987e3c7c97fbd5ecd10e39c78fe152fe1adcfac5",
-   "trades.js": "802705fb9cb377765735952946544c1feb84489b485acc591171bc14142f17e3"
-  },
-  "sig": "MEUCIGQYaYKfJsMKGVbgmuaXDTfhe9gqJ8Ckbu3ST1K8BPvHAiEAw0wTzIZNgjukAxmY1SsBLc6+abBozUhVJgSjqnVs5Vc="
  }
 }
