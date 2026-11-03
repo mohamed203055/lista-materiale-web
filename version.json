@@ -19,17 +19,17 @@
  "reg_url": "https://script.google.com/macros/s/AKfycbxSMJXn6I2P_hMa2Qh8r9tDIex6QCd8a9CZC0uOOTw9u8nXBEfaGvaDVoB5i1vegxDXkg/exec",
  "people_ver": "1793563071776",
  "live": {
-  "ver": "81",
+  "ver": "82",
   "min": 41,
   "files": {
-   "app.js": "fd27014e773eb8edccf259993336981152b9628a18191a298fa07ad598c723c0",
-   "catalog.js": "0f5ce268d74864f9ba75b7e553252ecd67fa3a98512057964709b5e79a159ce9",
-   "index.html": "943eca8f6a213d33983e04be615af285378a93b13add014da89923f3edb138c3",
-   "lang.js": "fc363b8ab256fbb7c4c882da42c1654706e8938a5df6e356b5d0046057c4a5cc",
-   "packs.js": "caed3bbcff028176dee2331ab1914287709dffdcd0ff1912a3f9ce47334edac8",
-   "trades.js": "f9dd096b268dcf44a7e92359760060cf879d42968ce0abb00e930a6a33b36810"
+   "app.js": "ff67fe255a73bdcaee8a15857a3b4cfa4015602e657766f435938d59be8935bc",
+   "catalog.js": "b1a4abf77e20ad6d43eabb212c70b3f33bd00a5339e940a7b5290b0309c5cb47",
+   "index.html": "5f16d58b27cd0a4acd790aa0d74d4034c2f5e6d99852fe6c19cf15e665bb346f",
+   "lang.js": "7ace3df6c4c249834e146729d2235a86051ab541efba7e7d7b468bc38244eeb0",
+   "packs.js": "ec6d0e4e4a17a6e98fa96623d843d42b33744893107189883f8ff09591395229",
+   "trades.js": "b7cdc7362e46e7e512783e7dec3567ce9301d7eae98d79ad9fd6b90f91fdccc0"
   },
-  "sig": "MEUCIGcMSbPTJDPcPtC2RxDtghJr/4bF9f2nVeZAGHThX6eyAiEA2JSjwDEG2MMajuY/7M/SM8S+MZ9L136KHO+ksbvoHFM="
+  "sig": "MEUCICj928NPi7Y4BAn0P66jyfh/5nLoFKVgLe0ohOUboeoMAiEAmZiy4QcCX4vIIXGcRbcDr/jBw/yrMa6SAf2nNzes2Gs="
  },
  "rc": {
   "flags": {},
