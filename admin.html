@@ -338,15 +338,22 @@ function usersShow(){
 }
 document.addEventListener('click',function(ev){
   var b=ev.target.closest&&ev.target.closest('[data-udel]'); if(!b) return;
-  var u=ls(SU),k=ls(SK),c=b.dataset.udel; if(!u||!k||!c) return;
-  if(!confirm('حذف «'+b.dataset.un+'» من قائمة المسجّلين؟')) return;
-  b.disabled=true;
-  fetch(u+'?key='+encodeURIComponent(k)+'&del='+encodeURIComponent(c)+'&t='+Date.now()).then(function(r){return r.json()}).then(function(j){
-    if(j.error){toast('المفتاح السري غير صحيح');b.disabled=false;return}
-    if(j.deleted===undefined){toast('حدّث كود السكربت أولاً (نسخة جديدة)');b.disabled=false;return}
-    USERS=USERS.filter(function(x){return String(x.codice)!==c});usersShow();toast('تم الحذف ✓');
-  }).catch(function(){toast('تعذّر الحذف');b.disabled=false});
-});
+  ev.preventDefault();ev.stopPropagation();
+  var u=ls(SU),k=ls(SK),c=b.dataset.udel;
+  if(!u){toast('أدخل أولاً رابط السكربت في قسم المسجّلين');return}
+  if(!k){toast('أدخل أولاً المفتاح السري في قسم المسجّلين');return}
+  if(!c){toast('هذا الشخص بدون رمز، لا يمكن حذفه');return}
+  // تأكيد داخل الصفحة (نوافذ التأكيد قد تكون محجوبة): ضغطة أولى = تأكيد؟ ، ضغطة ثانية = حذف
+  if(b.dataset.arm!=='1'){document.querySelectorAll('[data-arm="1"]').forEach(function(x){x.dataset.arm='';x.textContent='🗑'});b.dataset.arm='1';b.textContent='تأكيد الحذف؟';setTimeout(function(){if(b.dataset.arm==='1'){b.dataset.arm='';b.textContent='🗑'}},5000);return}
+  b.dataset.arm='';b.disabled=true;b.textContent='…';
+  fetch(u+(u.indexOf('?')<0?'?':'&')+'key='+encodeURIComponent(k)+'&del='+encodeURIComponent(c)+'&t='+Date.now()).then(function(r){return r.text()}).then(function(t){
+    var j;try{j=JSON.parse(t)}catch(e){j=null}
+    if(!j){toast('ردّ غير مفهوم من السكربت — تأكد من الرابط ومن نشر نسخة جديدة');b.disabled=false;b.textContent='🗑';return}
+    if(j.error){toast('المفتاح السري غير صحيح');b.disabled=false;b.textContent='🗑';return}
+    if(j.deleted===undefined){toast('حدّث كود السكربت أولاً (نسخة جديدة) ثم انشره');b.disabled=false;b.textContent='🗑';return}
+    USERS=USERS.filter(function(x){return String(x.codice)!==c});usersShow();toast(j.deleted?'تم الحذف ✓':'لم يُعثر عليه في الجدول (ربما حُذف من قبل)');
+  }).catch(function(){toast('تعذّر الاتصال بالسكربت — تحقق من الإنترنت والرابط');b.disabled=false;b.textContent='🗑'});
+},true);
 function usersLoad(){
   var u=ls(SU),k=ls(SK); if(!u||!k) return Promise.resolve();
   $('uSetup').classList.add('hide');$('uView').classList.remove('hide');
