@@ -32,7 +32,10 @@
   "sig": "MEUCICj928NPi7Y4BAn0P66jyfh/5nLoFKVgLe0ohOUboeoMAiEAmZiy4QcCX4vIIXGcRbcDr/jBw/yrMa6SAf2nNzes2Gs="
  },
  "rc": {
-  "flags": {},
+  "flags": {
+   "calc": false,
+   "panel": false
+  },
   "over": {},
   "add": {}
  }
